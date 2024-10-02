@@ -1,0 +1,51 @@
+.col:last-child {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    height: 460px;
+    margin: auto;
+    margin-top: 1.5em;
+    overflow-y: scroll;
+    width: 80%;
+}
+
+.col:first-child {
+    margin: 0 0.75em;
+}
+
+.col:first-child .body {
+    width: 80%;
+    margin: auto;
+}
+
+.col:last-child .body {
+    margin: 0 1em;
+}
+
+@media screen and (min-width: 1000px) {
+    .sec {
+        margin: auto;
+        overflow: hidden;
+        width: 85%;
+    }
+
+    .col {
+        float: left;
+        margin: 0 0.5%;
+    }
+
+    .col:first-child {
+        margin: 0;
+        width: 40%;
+    }
+
+    .col:last-child {
+        margin: 0;
+        width: 58%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .sec {
+        width: 65%;
+    }
+}

@@ -1,0 +1,95 @@
+{
+    "textAreaObjetivo": {
+        "tag": "textarea",
+        "name": "objetivo",
+        "label": "Sobre a Vaga"
+    },
+    "inputFuncao": {
+        "tag": "input",
+        "type": "text",
+        "name": "funcao",
+        "label": "Função da Vaga"
+    },
+    "inputNomeEmpresa": {
+        "tag": "input",
+        "type": "text",
+        "name": "nomeEmpresa",
+        "label": "Nome da empresa"
+    },
+    "inputLinkDaVaga": {
+        "tag": "input",
+        "type": "text",
+        "name": "linkDaVaga",
+        "label": "Link da vaga"
+    },
+    "hiddenSituacao": {
+        "tag": "hidden",
+        "type": "hidden",
+        "name": "situacao",
+        "value": "ativo"
+    },
+    "hiddenId": {
+        "tag": "hidden",
+        "type": "hidden",
+        "name": "id",
+        "value": "ativo"
+    },
+    "selectSituaco": {
+        "tag": "select",
+        "listOptions": [
+            {
+                "value": "ativo",
+                "option": "Ativo"
+            },
+            {
+                "value": "inativo",
+                "option": "Inativo"
+            }
+        ],
+        "name": "situacao",
+        "label": "Situação"
+    },
+    "selectCursos": {
+        "tag": "select",
+        "listOptions": [
+            {
+                "value": "ANALISE_E_DESENVOLVIMENTO_DE_SISTEMAS",
+                "option": "Análise e Desenvolvimento de Sistemas"
+            },
+            {
+                "value": "AMS_ANALISE_E_DESENVOLVIMENTO_DE_SISTEMAS",
+                "option": "AMS - Análise e Desenvolvimento de Sistemas"
+            },
+            {
+                "value": "DESENVOLVIMENTO_DE_SOFTWARE",
+                "option": "Desenvolvimento de Software"
+            },
+            {
+                "value": "COMERCIO_EXTERIOR",
+                "option": "Comércio Exterior"
+            },
+            {
+                "value": "DESENVOLVIMENTO_DE_PRODUTOS_PLASTICOS",
+                "option": "Desenvolvimento de Produtos Plásticos"
+            },
+            {
+                "value": "GESTAO_EMPRESARIAL",
+                "option": "Gestão Empresarial"
+            },
+            {
+                "value": "GESTAO_DE_RECURSOS_HUMANOS",
+                "option": "Gestão de Recursos Humanos"
+            },
+            {
+                "value": "LOGISTICA",
+                "option": "Logística"
+            },
+            {
+                "value": "POLIMEROS",
+                "option": "Polímeros"
+            }
+        ],
+        "name": "area",
+        "label": "Curso"
+    }
+}

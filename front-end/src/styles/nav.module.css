@@ -1,0 +1,27 @@
+.layout * {
+    box-sizing: border-box;
+    border-spacing: 0;
+    color: rgba(65, 140, 238, 1);
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+.layout {
+    background: rgba(33, 32, 32, 1);
+    border-bottom: 1px solid;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.layout ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0.75em;
+}
+
+.layout ul li a {
+    font-size: 1.2em;
+    margin: 0 0.5em;
+}

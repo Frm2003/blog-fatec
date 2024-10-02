@@ -1,0 +1,33 @@
+.layout {
+    margin: 0.75em 0em;
+}
+
+.layout button {
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    margin-right: 0.5em;
+    padding: 0.5em;
+    width: 25%;
+}
+
+.layout button:first-child {
+    background: rgba(65, 140, 238, 1);
+}
+
+.layout button:last-child {
+    background: rgba(172, 47, 44, 1);
+}
+
+@media screen and (min-width: 1000px) {
+    .layout {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 20%;
+    }
+
+    .layout button {
+        width: 50%;
+    }
+}

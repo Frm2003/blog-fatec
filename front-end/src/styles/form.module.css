@@ -1,0 +1,91 @@
+.layout * {
+    box-sizing: border-box;
+    border-spacing: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+.layout h2 {
+    color: rgba(65, 140, 238, 1);
+    font-size: 1.6em;
+    padding: 0.5em 0;
+}
+
+.layout p {
+    font-size: 1em;
+    padding-bottom: 0.5em;
+}
+
+.layout div {
+    width: 80%;
+    margin: auto;
+    padding: 0.5em 0;
+}
+
+.layout div label {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
+.layout div input[type='hidden'] {
+    display: none;
+}
+
+.layout .field1 input,
+.layout .field1 select,
+.layout .field1 textarea {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1em;
+    padding: 0.5em 0;
+    width: 100%;
+}
+
+.layout .field2 input,
+.layout .field2 select,
+.layout .field2 textarea {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1em;
+    padding: 0.5em 0;
+    width: 100%;
+}
+
+.layout textarea {
+    resize: none;
+    font-size: 11em;
+}
+
+.layout select option {
+    color: rgba(0, 0, 0, 1);
+}
+
+.layout button {
+    background: rgba(65, 140, 238, 1);
+    border: none;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    margin: 0.5em 0;
+    padding: 0.5em 1.5em;
+}
+
+@media screen and (min-width: 1000px) {
+    .layout {
+        overflow: hidden;
+    }
+
+    .layout .field2 {
+        float: left;
+        width: 50%;
+    }
+
+    .layout .field2:first-child {
+        width: 100%;
+    }
+}
